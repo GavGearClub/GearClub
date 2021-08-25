@@ -1,6 +1,8 @@
 /* CSS files add styling rules to your content */
 body {
-  background-color:linear-gradient(rgb(63, 213, 222,0.7), rgb(255, 255, 255));
+  /*background-color: rgb(158, 213, 222);*/
+  background-image: linear-gradient(rgb(63, 213, 222,0.7), rgb(255, 255, 255));
+
   text-align: center;
   font: 15px/1.5;
   font-family: helvetica, arial, sans-serif;
@@ -30,7 +32,7 @@ ul {
 /* Header*/
 header {
   background: linear-gradient(
-   180deg,
+    180deg,
     rgba(123, 169, 186, 1) 1%,
     rgba(18, 109, 234, 1) 100%
   );
@@ -85,8 +87,7 @@ h1 {
   font-family: "Oleo Script", cursive;
 }
 
-/Showcase */
-/#showcase {
+/Showcase */ /#showcase {
   min-height: 400px;
   background: url("https://cdn.glitch.com/f6508cf9-1bcc-4284-a34d-1bcab5fe0551%2FScreen_Shot_2021-06-30_at_14.12.00.png?v=1626907502483")
     repeat 0 -600px;
