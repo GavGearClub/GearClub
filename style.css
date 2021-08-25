@@ -1,6 +1,6 @@
 /* CSS files add styling rules to your content */
 body {
-  background-color: rgb(158, 213, 222);
+  background-color:linear-gradient(rgb(63, 213, 222,0.7), rgb(255, 255, 255));
   text-align: center;
   font: 15px/1.5;
   font-family: helvetica, arial, sans-serif;
@@ -30,9 +30,9 @@ ul {
 /* Header*/
 header {
   background: linear-gradient(
-    180deg,
+   180deg,
     rgba(123, 169, 186, 1) 1%,
-    rgba(114, 177, 234, 1) 100%
+    rgba(18, 109, 234, 1) 100%
   );
   color: #ffffff;
   padding-top: 30px;
